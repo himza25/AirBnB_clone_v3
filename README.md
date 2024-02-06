@@ -153,10 +153,19 @@ EOF  all  create  destroy  help  quit  show  update
 ## Bugs
 No known bugs at this time. 
 
+## New Contributions
+- [Hamza & Anas ]: Enhanced the testing suite to ensure robustness and reliability across the application, significantly increasing the number of assertions to cover a wider range of use cases. Implemented advanced storage capabilities in both `DBStorage` and `FileStorage`, introducing methods to retrieve specific objects by id and to count objects, which streamlined data manipulation and access patterns. Developed a comprehensive API status check endpoint to monitor the health and status of the application dynamically. Introduced a detailed stats endpoint, enabling a quick overview of the object count, thus facilitating better resource management. Improved error handling with a custom 404 JSON response to enhance the API's user experience. Expanded the RESTful API functionality to include full CRUD operations for `State`, `City`, `User`, `Place`, `Amenity` objects, allowing for more interactive and dynamic client-side applications. Implemented CORS to allow for cross-origin requests, enhancing the API's flexibility for frontend development. Implemented advanced search functionalities, allowing for more complex queries based on a combination of states, cities, and amenities, thus significantly enhancing the application's usability for end-users.
+
 ## Authors
 Alexa Orrico - [Github](https://github.com/alexaorrico) / [Twitter](https://twitter.com/alexa_orrico)  
 Jennifer Huang - [Github](https://github.com/jhuang10123) / [Twitter](https://twitter.com/earthtojhuang)
 
 Second part of Airbnb: Joann Vuong
+
+####AirBnB V3 : 
+
+Samari Hamza - [Github](https://github.com/himza25)/ [Twitter](https://twitter.com/samarii25)
+Anas EL BAIDOURI - [Github](https://github.com/Axcis380)/ [Linkedin](https://www.linkedin.com/in/anas-el-baidouri-a17a64179/)
+
 ## License
 Public Domain. No copy write protection. 
